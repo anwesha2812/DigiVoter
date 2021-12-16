@@ -1,0 +1,136 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 21-Nov-2021, 2:12:22 am
+    Author     : HP
+*/
+body{
+    background: #2C365E;
+    zoom: 90%;
+}
+.ellipse1{
+    position: fixed;
+    width: 357px;
+    height: 298px;
+    left: 1141px;
+    top: -56px;
+
+    background: #FCFFA6;
+    border-radius:50%;
+}
+.ellipse2 {
+    position: fixed;
+    width: 357px;
+    height: 298px;
+    left: -71px;
+    top: 181px;
+
+    background: #C1FFD7;
+    border-radius:45%;
+}
+.register{
+    position: absolute;
+    width: 757px;
+    height: 875px;
+    left: 596px;
+    top: 75px;
+    border-radius: 20px;
+    background: rgba(0,0,0,0.7);
+    border-radius: 10px;
+    color: #fff;
+    box-shadow: 0 15px 25px rgba(0,0,0,0.5);
+
+}
+
+.ellipse3{
+    position: fixed;
+    width: 357px;
+    height: 298px;
+    left: 776px;
+    top: 500px;
+
+    background: #CAB8FF;
+    border-radius: 75%;
+
+}
+.ellipse4{
+    position: fixed;
+    width: 33px;
+    height: 20px;
+    left: 55px;
+    top: 123px;
+
+    background: #CAB8FF;
+    border-radius: 50%;
+}
+.ellipse5{
+    position: fixed;
+    width: 33px;
+    height: 20px;
+    left: 1378px;
+    top: 281px;
+
+    background: #C1FFD7;
+    border-radius: 50%;
+}
+.ellipse6{
+    position: fixed;
+    width: 33px;
+    height: 20px;
+    left: 730px;
+    top: 981px;
+
+    background: #FCFFA6;
+    border-radius: 50%;
+}
+img{
+    position: absolute;
+    width: 513px;
+    height: 875px;
+    left: 83px;
+    top: 75px;
+
+    background: url(image.png);
+    border-radius: 20px;
+}
+
+.registerhere{
+    width: 100%;
+    display: block;
+    font-family: monospace, sans-serif, cursive ;
+    font-size: 30px;
+    color: #FFFFFF;
+    line-height: 1.2;
+    text-align: center;
+    margin-top: 35px;
+
+}
+.font{
+    font-family: sans-serif, cursive;
+    color:#2C365E ;
+}
+
+.form{
+    padding-left: 150px;
+    padding-top: 45px;
+}
+input{
+    background-color:#ECF6FF ;
+}
+#submit{
+    margin: 0px 0px 0px 180px;
+}
+ .passwordInput{
+            margin-top: 5%; 
+            text-align :center;
+        }
+
+        .displayBadge{
+            margin-top: 5px;
+            margin-bottom: 3px;
+            width: 70px;
+            display: none; 
+            text-align :center;
+        }
