@@ -1,0 +1,329 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 02-Mar-2022, 1:23:11 pm
+    Author     : HP
+*/
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 01-Mar-2022, 10:04:59 pm
+    Author     : HP
+*/
+
+body {
+    background: rgb(0,212,255);
+    background: radial-gradient(circle, rgba(0,212,255,1) 0%, rgba(7,60,155,1) 60%, rgba(9,9,121,1) 100%);
+    padding: 2px;
+    margin: 2px;
+    font-family: sans-serif;
+}
+
+.heading {
+   padding: 0px;
+    margin: 6px;
+    font-size: 25px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: rgb(134, 255, 255);
+}
+
+.button {
+    margin-left: 20px;
+    margin-top: 30px;
+    padding: 5px;
+    font-size: 20px;
+    background-color: rgb(123, 234, 123);
+    color: #000;
+    text-transform: uppercase;
+    border-radius: 5px;
+    width: 100px;
+}
+
+.button:hover {
+    background-color: blue;
+    cursor: pointer;
+    color: rgb(0, 255, 106);
+}
+
+.btn-back {
+    float: left;
+    margin-left: 20px;
+    margin-top: 30px;
+    padding: 5px;
+    font-size: 25px;
+    background-color: rgb(123, 234, 123);
+    color: #000;
+    text-transform: uppercase;
+    border-radius: 5px;
+    width: 100px;
+}
+
+.btn-back:hover {
+    background-color: blue;
+    cursor: pointer;
+    color: rgb(0, 255, 106);
+}
+
+.btn-logout {
+    float: right;
+  
+    margin-top: 30px;
+    margin-right:20px;
+   
+    padding: 5px;
+    font-size: 25px;
+    background-color: rgb(123, 234, 123);
+    color: #000;
+    text-transform: uppercase;
+    border-radius: 5px;
+    width: 120px;
+}
+
+.btn-logout:hover {
+    background-color: blue;
+    cursor: pointer;
+    color: rgb(0, 255, 106);
+}
+
+.form, .voters-info {
+    position: relative;
+    float: left;
+    width: 100%;
+    max-width: 300px;
+    padding: 40px 10px 10px 40px;
+    height:30%;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+    color: rgb(134, 255, 255);
+    margin-left: 300px;
+}
+
+.form::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.08);
+    transform: skewX(-26deg);
+    transform-origin: bottom left;
+    border-radius: 10px;
+    pointer-events: none;
+}
+
+.data {
+    position: relative;
+    float: right;
+    right:25%;
+    width: 100%;
+    max-width: 700px;
+    max-height: 1000px;
+    padding: 40px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+    font-size: 30px;
+    font-weight: 500;
+    text-align: left;
+    color: rgb(134, 255, 255);
+    /*margin-left: 50px;*/
+}
+
+.data::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.08);
+    transform: skewX(-45deg);
+    transform-origin: bottom left;
+    border-radius: 10px;
+    pointer-events: none;
+
+}
+
+.Vote {
+    margin-left: 68%;
+    margin-top: 0%;
+    padding: 10px;
+    font-size: 25px;
+    background-color: rgb(123, 234, 123);
+    color: #000;
+    text-transform: uppercase;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+    justify-content: center;
+    left: 50px;
+}
+
+.Vote:hover {
+    background-color: blue;
+    cursor: pointer;
+    color: rgb(0, 255, 106);
+}
+
+input[type="radio"]:checked:before {
+    content: "";
+    display: block;
+    position: relative;
+    top: 3px;
+    left: 3px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #070bfe;
+}
+h1{
+    text-transform: uppercase;
+    font-size: 50px; 
+    text-shadow:  2px 2px 8px #FF0000;
+}
+h4{
+    text-align: center;
+    border:3px solid white;
+    max-width: 450px;
+    border-radius: 8px;
+    margin: 4px;
+    padding: 6px;
+    text-transform: uppercase;
+    left:15%;
+    position: relative;
+    font-size: 35px;
+    bottom: 30%;
+}
+h3{
+    position: relative; 
+    text-align: center;
+    display: block;
+    border: 5px solid white;
+    max-width:60%;
+    border-radius:8px;
+    left:18.5%;
+    height: 25%;
+    margin: 15px;
+    padding: 15px;
+    font-size: 37px;
+    color:#11035b;
+
+}
+label{
+    padding: 6px;
+    margin: 4px;
+}
+
+#submit {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 0;
+    z-index: 1;
+    background: #2C365E;
+    opacity: 0;
+    transition: 0.6s;
+}
+
+#submit:target {
+    height: 110%;
+    opacity: 1;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    background-color: blue;
+    cursor: pointer;
+    color: rgb(0, 255, 106);
+}
+.close {
+    position: absolute;
+    right: 1.5rem;
+    top: 0.5rem;
+    font-size: 2rem;
+    font-weight: 900;
+    text-decoration: none;
+    color: inherit;
+}
+a:link, a:visited {
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.navbar {
+    background-color: #11035b;
+    border-radius: 10px;
+    border: 1px solid white;
+    height: 50px;
+}
+
+
+.navbar ul {
+    overflow: auto;
+}
+
+/* .navbar li{
+    float:left;
+    list-style: none; 
+    margin: 13px 20px;
+    
+} */
+.navbar li a {
+    position: relative;
+    top: -17px;
+    text-decoration: none;
+    color: #8ce1dd;
+    font-size: 20px;
+}
+
+.navbar li a:hover {
+    color: red
+}
+
+.search {
+    float: right;
+    color: white;
+    padding: 12px 75px;
+}
+
+.navbar input {
+    border: 2px solid black;
+    border-radius: 14px;
+    padding: 3px 17px;
+    width: 129px;
+}
+
+.nav-left {
+    float: left;
+    list-style: none;
+    margin: 13px 20px;
+}
+
+.nav-right {
+    float: right;
+    list-style: none;
+    margin: 13px 20px;
+}
+/*.slide{
+    display :none;
+}*/
+.slide.active{
+    display: block;
+}

@@ -1,0 +1,152 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 21-Nov-2021, 12:41:25 am
+    Author     : HP
+*/
+body{
+background: hsla(207, 100%, 94%, 1);
+background: linear-gradient(90deg, hsla(207, 100%, 94%, 1) 23%, hsla(207, 100%, 87%, 1) 100%);
+background: -moz-linear-gradient(90deg, hsla(207, 100%, 94%, 1) 23%, hsla(207, 100%, 87%, 1) 100%);
+background: -webkit-linear-gradient(90deg, hsla(207, 100%, 94%, 1) 23%, hsla(207, 100%, 87%, 1) 100%);
+filter: progid DXImageTransform.Microsoft.gradient( startColorstr="#E2F2FF", endColorstr="#BCE1FF", GradientType=1 );
+background-repeat: no-repeat;
+background-attachment: fixed;
+/*background: #0077D9;*/
+    zoom: 90%;
+}
+.ellipse1{
+    position: fixed;
+    width: 357px;
+    height: 298px;
+    left: 990px;
+    top: 16px;
+z-index: -1;
+    background: #FCFFA6;
+    border-radius:50%;
+}
+.ellipse2 {
+    position: fixed;
+    width: 357px;
+    height: 298px;
+    left: -71px;
+    top: 181px;
+z-index: -1;
+    background: #A8A5FF;
+    border-radius:45%;
+}
+.ellipse3{
+    position: fixed;
+    width: 357px;
+    height: 298px;
+    left: 550px;
+    top: 470px;
+z-index: -1;
+    background: #C1FFD7;
+    border-radius: 75%;
+
+}
+.ellipse4{
+    position: fixed;
+    width: 33px;
+    height: 20px;
+    left: 55px;
+    top: 123px;
+z-index: -1;
+    background: #CAB8FF;
+    border-radius: 50%;
+}
+.ellipse5{
+    position: fixed;
+    width: 33px;
+    height: 20px;
+    left: 1378px;
+    top: 281px;
+z-index: -1;
+    background: #C1FFD7;
+    border-radius: 50%;
+}
+.ellipse6{
+    position: fixed;
+    width: 33px;
+    height: 20px;
+    left: 730px;
+    top: 981px;
+z-index: -1;
+    background: #FCFFA6;
+    border-radius: 50%;
+}
+.navbar{
+    background-color: #2C365E;
+    border-radius: 30px;
+    
+}
+.navbar ul{
+    overflow: auto;
+}
+/* .navbar li{
+    float:left;
+    list-style: none; 
+    margin: 13px 20px;
+    
+} */
+.navbar li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    color: white;
+}
+.navbar li a:hover{
+    color: red
+}
+.search{
+    float: right;
+    color: white;
+    padding: 12px 75px;
+}
+.navbar input{
+    border: 2px solid #2C365E;
+    border-radius: 14px;
+    padding: 3px 17px;
+    width: 129px;
+}
+.nav-left{
+    float:left;
+    list-style: none; 
+    margin: 13px 20px;
+}
+.nav-right
+{
+    float:right;
+    list-style: none; 
+    margin: 13px 20px;
+}
+#logo{
+    display: block;
+    margin-left: auto;
+    margin-right: 400px;
+    width: 45%;
+}
+@font-face{
+        font-family: Mullingar-nRgnO;
+        src:url(Mullingar-nRgnO.ttf) format("truetype");
+    }
+.line{
+    font-family: 'Mullingar-nRgnO';
+    font-size: 40px;
+    text-align: center;
+    margin-top: -5%;
+    color: #2C365E;
+}
+.dv{
+   font-weight: bold;
+}
+#login-status{
+     font-family: 'Mullingar-nRgnO';
+    font-size: 40px;
+    text-align: center;
+    margin-top: -5%;
+    color: #2C365E;
+}
+
